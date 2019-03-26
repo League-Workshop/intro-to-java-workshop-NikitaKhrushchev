@@ -14,7 +14,7 @@ public class FlamingNinjaStar {
 		mark.penDown();
 		// *14. Use the methods setX and setY to move the ninja star into the center of the screen
 		mark.setX(450);
-		mark.setY(450);
+		mark.setY(300);
 		// *15. Make some adjustments to see what other kinds of shapes you can make.
 		
 		// 12. Set the robot speed to 100

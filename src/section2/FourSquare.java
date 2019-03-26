@@ -30,8 +30,13 @@ public class FourSquare {
 	void drawSquare() {
 		JOptionPane.showMessageDialog(null, "yay! you called the drawSquare() method!");
 		/* 3. Fill in the code to draw a square inside the method below. */
-		
-		
+		mark.penDown();
+		for (int i = 0; i < 4; i++) {
+			mark.setRandomPenColor();
+			mark.move(100);
+			mark.turn(90);
+		}
+		mark.penUp();
 	}
 
 	public static void main(String[] args) {
